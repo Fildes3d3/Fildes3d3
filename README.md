@@ -25,7 +25,7 @@ Same habit — measure first, document what broke — applied to my motorhome:
  
 I deliver with an AI-augmented workflow — Claude Code for implementation speed, my production experience for the decisions that matter: architecture, scoping, the failure modes worth designing around. The starter above was built this way. The judgment in it is the part you're hiring.
  
-Self-taught, career-changed, writing Vue since 2017 and PHP since well before Composer. Currently full-stack at Sectigo (PKI / certificate infrastructure).
+Self-taught, career-changed, writing Vue since 2017. Currently full-stack at Sectigo (PKI / certificate infrastructure).
  
 ## Contact
  
