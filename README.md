@@ -7,12 +7,20 @@ I build headless CMS architectures — a structured content backend, an API boun
 - **2017** — WordPress admin as content backend, Symfony/Twig frontend
 - **2021** — custom Symfony back-office + Nuxt front-office
 - **now** — Craft CMS 5 + Nuxt 4, which is where this architecture stopped fighting me
+
 That last iteration is distilled into my starter:
  
 ### → [craft-nuxt-starter](https://github.com/Fildes3d3/craft-nuxt-starter)
  
 Craft 5 + Nuxt 4, headless, wired together and running with one command — GraphQL, live preview, Docker networking that survives production, seeded content, CI. The README documents the gotchas that cost real hours (SSR-over-internal-network, the `NUXT_` runtime config trap, `useAsyncData` error swallowing), because a starter without the scar tissue is just a template.
  
+## Off the clock
+
+Same habit — measure first, document what broke — applied to my motorhome:
+
+- **[van-panel](https://github.com/Fildes3d3/van-panel)** — ESP32-S3 touchscreen that reads the van's undocumented 1990s Toptron gauge signal without cutting a wire. C++, LVGL.
+- **[ef-ble-dashboard](https://github.com/Fildes3d3/ef-ble-dashboard)** — local-first gateway that reads and controls an EcoFlow DELTA 2 and alternator charger over Bluetooth LE. Python, FastAPI, no cloud.
+
 ## How I work
  
 I deliver with an AI-augmented workflow — Claude Code for implementation speed, my production experience for the decisions that matter: architecture, scoping, the failure modes worth designing around. The starter above was built this way. The judgment in it is the part you're hiring.
